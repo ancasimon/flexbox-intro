@@ -31,7 +31,7 @@ body {
     display: block;
     color: #111;
     text-align: center;
-    padding: 14px 16 px;
+    padding: 14px 16px;
     text-decoration: none;   
 }
 
@@ -40,9 +40,34 @@ body {
     background-color:#111;
 }
 
+/*footer*/
 footer {
-    width: 100;
+    width: 100%;
     color: #111;
-    background-color: white;
-    
+    background-color: #eee;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;   
+}
+
+.dogs {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+}
+.dogs img {
+    height: 250px;
+    margin: 50px;
+}
+
+.cats {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+}
+
+.cats img {
+    height: 250px;
+    margin: 50px;
 }
